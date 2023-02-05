@@ -70,6 +70,7 @@ window.addEventListener('load', () => {
     }
     // 把ol里面的第一个小li设置类名为current，默认情况
     dots.children[0].className = 'current';
+    // 居中对齐
     dots.style.marginLeft = -dots.offsetWidth / 2 + 'px';
 
     // 点击按钮一次，图片滚动一次
